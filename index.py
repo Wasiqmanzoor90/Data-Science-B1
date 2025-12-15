@@ -44,11 +44,43 @@
 # print(thelist[1:5])
 
 #dictionary
+#it store data in key:value pairs
 # thisdict = {
 #     'name': 'umer',
 #     'age': 25,
 #     'gender': 'male',
 #     'sex':'male'
 # }
-# thisdict['age']=26
+# thisdict['age']=26  #we can change the value of a key
 # print(thisdict)
+
+# thislist = ['apple','umer',3.5,10, True]
+# thislist[1]='hanan'  #editing the value at index 1
+# thislist.append('ubaid')
+# thislist.insert(2,'burhan')
+# thislist.remove('apple')
+# thislist.pop(0)
+# print(thislist)
+
+
+# #tupple
+# thistuple = ('umer',3.5,True,'hanan')
+# print(thistuple[0])
+
+#set
+# thiset = {'umer',3.5,True,'hanan','umer'}
+# thiset.add('ubaid')
+# thiset.remove('hanan')
+# print(thiset)
+
+thisdict = {
+    'Name': 'umer',
+    'Age': 25,
+    'Gender': 'male',
+    'Sex': 'male'
+}
+thisdict['State'] ="kashmir"
+thisdict['Name']='hanan'
+thisdict.update({'Age':26})
+thisdict.pop('Gender')
+print(thisdict)
