@@ -87,17 +87,26 @@
 
 #nested dict 
 
-nestdisct ={
-    "1":{"name":"wasiq", "age":25,'pincode':190015},
-    "2":{"name":"burhan", "age":23,'pincode':1900012},
-    "3":{"name":"hanan", "age":22,'pincode':190013},
-    "4":{"name":"alim", "age":21,'pincode':190014}
-} 
-#adding the element in nested dict
-nestdisct['5']={"name":"ubaid", "age":24,'pincode':190016}
-#removing the element from nested dict
-nestdisct.pop('2')
-# print(len(nestdisct["1"]['name']))
-nestdisct.update({'3':{'name':'umer'}})
-# print(type(nestdisct))
-print(nestdisct["3"])
+# nestdisct ={
+#     "1":{"name":"wasiq", "age":25,'pincode':190015},
+#     "2":{"name":"burhan", "age":23,'pincode':1900012},
+#     "3":{"name":"hanan", "age":22,'pincode':190013},
+#     "4":{"name":"alim", "age":21,'pincode':190014}
+# } 
+# #adding the element in nested dict
+# nestdisct['5']={"name":"ubaid", "age":24,'pincode':190016}
+# #removing the element from nested dict
+# nestdisct.pop('2')
+# # print(len(nestdisct["1"]['name']))
+# nestdisct.update({'3':{'name':'umer'}})
+# # print(type(nestdisct))
+# print(nestdisct["3"])
+
+nestdict = {
+    "1":{"name":{"firstname":"Abdul","lastname":"Moomin"},"Dob":{"Day":5,"Month":8 ,"year":2000}},
+    "2":{"name":{"firstname":"saliq","lastname":"mushtaq"},"Dob":{"Day":2,"Month":11 ,"year":2001}},
+    "3":{"name":{"firstname":"Hanan","lastname":"Manzoor"},"Dob":{"Day":17,"Month":1 ,"year":2007}}
+}
+nestdict['4']={"name":{"firstname":"Manan","lastname":"Malik"},"Dob":{"Day":5,"Month":10 ,"year":2005}}
+nestdict["2"]={"name":{"firstname":"Wasiq","lastname":"Manzoor"},"Dob":{"Day":5,"Month":12 ,"year":1960}}
+print(nestdict["2"])
