@@ -14,12 +14,21 @@
 # sot.remove("lubna")
 # print(sot)
 
-dictt = {
-    'name':'wasiq',
-    'roll-no':2,
-    'phn-no':9797094644
-}
-dictt['adress']='noida'
-dictt.pop('roll-no')
-dictt['name']='abdul'
-print(len(dictt))
+# dictt = {
+#     'name':'wasiq',
+#     'roll-no':2,
+#     'phn-no':9797094644
+# }
+# dictt['adress']='noida'
+# dictt.pop('roll-no')
+# dictt['name']='abdul'
+# print(len(dictt))
+
+
+num = int(input("Enter Your age"))
+
+if(num>=18):
+    print("You are elgible")
+
+else:
+    print("You are not elgible")

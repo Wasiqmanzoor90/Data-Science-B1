@@ -102,11 +102,27 @@
 # # print(type(nestdisct))
 # print(nestdisct["3"])
 
-nestdict = {
-    "1":{"name":{"firstname":"Abdul","lastname":"Moomin"},"Dob":{"Day":5,"Month":8 ,"year":2000}},
-    "2":{"name":{"firstname":"saliq","lastname":"mushtaq"},"Dob":{"Day":2,"Month":11 ,"year":2001}},
-    "3":{"name":{"firstname":"Hanan","lastname":"Manzoor"},"Dob":{"Day":17,"Month":1 ,"year":2007}}
-}
-nestdict['4']={"name":{"firstname":"Manan","lastname":"Malik"},"Dob":{"Day":5,"Month":10 ,"year":2005}}
-nestdict["2"]={"name":{"firstname":"Wasiq","lastname":"Manzoor"},"Dob":{"Day":5,"Month":12 ,"year":1960}}
-print(nestdict["2"])
+# nestdict = {
+#     "1":{"name":{"firstname":"Abdul","lastname":"Moomin"},"Dob":{"Day":5,"Month":8 ,"year":2000}},
+#     "2":{"name":{"firstname":"saliq","lastname":"mushtaq"},"Dob":{"Day":2,"Month":11 ,"year":2001}},
+#     "3":{"name":{"firstname":"Hanan","lastname":"Manzoor"},"Dob":{"Day":17,"Month":1 ,"year":2007}}
+# }
+# nestdict['4']={"name":{"firstname":"Manan","lastname":"Malik"},"Dob":{"Day":5,"Month":10 ,"year":2005}}
+# nestdict["2"]={"name":{"firstname":"Wasiq","lastname":"Manzoor"},"Dob":{"Day":5,"Month":12 ,"year":1960}}
+# print(nestdict["2"])
+
+# nestlist = [['hanan',1,980,2.0], [234,523,'kamran',12], [214,223,'umran',212]]
+# nestlist[2][2] = 'abdul'
+# nestlist[2].append('iram')
+# nestlist[2].insert(4,'Madeeha')
+# del nestlist[2][4]
+# print(nestlist)
+
+scram = [[['wasiq',19,254,0.7],['umaran',9.0,65]]     ,[[40,1000,'maryam',29],['kamran',11,'abdul']]   ,[[999,367,'hadiya'],[209,'waqas','ubaid']]]
+scram[1][0][2]='zia'
+scram[0][0].append(34)
+del scram[2][1][2]
+print(scram)
+print(scram[0][1][0])
+print(scram[2][1][1])
+
