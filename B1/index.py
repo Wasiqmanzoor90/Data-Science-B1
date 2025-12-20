@@ -13,7 +13,7 @@
 # e ='wasiq'
 # print(e)
 
-
+#ok
 # abc =['wasiq', 3.5, True, 'ubaid'] #we have created an list
 # abc.append('umer') # we have added an element in the list using append function
 # abc.remove(3.5) # we have removed an element from the list using remove function
@@ -111,18 +111,21 @@
 # nestdict["2"]={"name":{"firstname":"Wasiq","lastname":"Manzoor"},"Dob":{"Day":5,"Month":12 ,"year":1960}}
 # print(nestdict["2"])
 
-# nestlist = [['hanan',1,980,2.0], [234,523,'kamran',12], [214,223,'umran',212]]
+nestlist = [['hanan',1,980,2.0],    [234,523,'kamran',12],    [214,223,'umran',212]]
 # nestlist[2][2] = 'abdul'
 # nestlist[2].append('iram')
 # nestlist[2].insert(4,'Madeeha')
 # del nestlist[2][4]
-# print(nestlist)
+print(nestlist[2][1])
 
-scram = [[['wasiq',19,254,0.7],['umaran',9.0,65]]     ,[[40,1000,'maryam',29],['kamran',11,'abdul']]   ,[[999,367,'hadiya'],[209,'waqas','ubaid']]]
-scram[1][0][2]='zia'
-scram[0][0].append(34)
-del scram[2][1][2]
-print(scram)
-print(scram[0][1][0])
-print(scram[2][1][1])
+# scram = [[['wasiq',19,254,0.7],['umaran',9.0,65]]     ,[[40,1000,'maryam',29],['kamran',11,'abdul']]   ,[[999,367,'hadiya'],[209,'waqas','ubaid']]]
+# scram[1][0][2]='zia'
+# scram[0][0].append(34)
+# del scram[2][1][2]
+# print(scram)
+# print(scram[0][1][0])
+# print(scram[2][1][1])
+
+# obc=[[[1,11],  [5,34]]    ,[[80,89],[23,56]],    [[11,145],[51,32]]]
+# print(obc[1][1][1])
 
