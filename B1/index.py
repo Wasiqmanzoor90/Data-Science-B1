@@ -111,21 +111,44 @@
 # nestdict["2"]={"name":{"firstname":"Wasiq","lastname":"Manzoor"},"Dob":{"Day":5,"Month":12 ,"year":1960}}
 # print(nestdict["2"])
 
-nestlist = [['hanan',1,980,2.0],    [234,523,'kamran',12],    [214,223,'umran',212]]
+# nestlist = [['hanan',1,980,2.0],    [234,523,'kamran',12],    [214,223,'umran',212]]
 # nestlist[2][2] = 'abdul'
 # nestlist[2].append('iram')
 # nestlist[2].insert(4,'Madeeha')
 # del nestlist[2][4]
-print(nestlist[2][1])
+# print(nestlist[2][1])
 
 # scram = [[['wasiq',19,254,0.7],['umaran',9.0,65]]     ,[[40,1000,'maryam',29],['kamran',11,'abdul']]   ,[[999,367,'hadiya'],[209,'waqas','ubaid']]]
-# scram[1][0][2]='zia'
-# scram[0][0].append(34)
-# del scram[2][1][2]
-# print(scram)
-# print(scram[0][1][0])
-# print(scram[2][1][1])
+
+# print(scram[0][1][2])
+
 
 # obc=[[[1,11],  [5,34]]    ,[[80,89],[23,56]],    [[11,145],[51,32]]]
 # print(obc[1][1][1])
 
+
+    
+
+# a = int (input("Enter you age: "))
+# if(a>=18):
+#     print("you are elgible to vote")
+
+# else:
+#     print("you are not elgible")
+    
+    
+# evenodd = int(input("Enter any number"))
+
+# if(evenodd % 2 == 0):
+#     print("this is even number")
+# else:
+#     print("this is odd number")
+
+age = int(input("enter any number"))
+
+if(age>=25):
+    print("Your Post Graduation is in Completed")
+elif(age>=22):
+    print("Your graduation is done")
+else:
+    print("You are still in school!")
