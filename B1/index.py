@@ -144,11 +144,48 @@
 # else:
 #     print("this is odd number")
 
-age = int(input("enter any number"))
+# age = int(input("enter any number"))
 
-if(age>=25):
-    print("Your Post Graduation is in Completed")
-elif(age>=22):
-    print("Your graduation is done")
-else:
-    print("You are still in school!")
+# if(age>=25):
+#     print("Your Post Graduation is in Completed")
+# elif(age>=22):
+#     print("Your graduation is done")
+# else:
+#     print("You are still in school!")
+
+# try:    
+#     n1 = int(input("Enter number1:-"))
+#     n2 = int(input("Enter number 2:-"))
+
+#     op = input("Choose your Operator:- +, -, *, /, %")
+
+#     if(op == '+'):
+#         s = n1+n2
+#         print("sum",s)
+    
+#     elif(op == '-'):
+#         sub = n1-n2
+#         print("subtraction:", sub)
+    
+#     elif(op =='*'):
+#         mul = n1*n2
+#         print("Mult", mul)
+    
+#     elif(op == '/'):
+#         div = n1/n2
+#         print("division", div)
+        
+
+    
+#     else:
+#         print('Invalid operator')
+
+# except ZeroDivisionError:
+#     print("Cant divded by zero")
+
+# n1 = int(input("enter an number"))
+# if(n1%2 == 0):
+#     print("its an even number")
+# else:
+#     print("its an odd number")
+
