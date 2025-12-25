@@ -189,3 +189,26 @@
 # else:
 #     print("its an odd number")
 
+
+
+
+# for i in range(0,20,2):
+#     print(i)
+
+# fruit = ['apple', 'mango', 'pear']
+# for fruits in fruit:
+#     print(fruits)
+
+# thisdict = {
+#     'Name': 'umer',
+#     'Age': 25,
+#     'Gender': 'male',
+#     "pin code": 190001
+# }
+# for key,value in thisdict.items():
+#     print(key,":",value)
+
+tab = 3
+for i in range(1,11):
+    res = tab * i
+    print(tab,"x",i,"=", res)
