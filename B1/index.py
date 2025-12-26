@@ -208,7 +208,35 @@
 # for key,value in thisdict.items():
 #     print(key,":",value)
 
-tab = 3
-for i in range(1,11):
-    res = tab * i
-    print(tab,"x",i,"=", res)
+# tab = 3
+# for i in range(1,11):
+#     res = tab * i
+#     print(tab,"x",i,"=", res)
+    
+dicto = {
+    "name":"Burhaan",
+    "Roll no": 12,
+    "Pin-code":190001
+}
+
+# for ind,val in dicto.items():
+#     print(ind,":", val)
+    
+# for i in range()
+
+# for i in range(1,11):
+#     if(i == 5):
+#         continue
+#     print(i)
+
+n = int(input("Enter an number"))
+if(n<=1):
+    print("Not a prime number")
+else:
+    for i in range(2,n):
+        if(n%i==0):
+            print("Not an Prime number")
+            break
+    else:
+        print("Prime number")
+            
