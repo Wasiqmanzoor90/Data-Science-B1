@@ -213,11 +213,11 @@
 #     res = tab * i
 #     print(tab,"x",i,"=", res)
     
-dicto = {
-    "name":"Burhaan",
-    "Roll no": 12,
-    "Pin-code":190001
-}
+# dicto = {
+#     "name":"Burhaan",
+#     "Roll no": 12,
+#     "Pin-code":190001
+# }
 
 # for ind,val in dicto.items():
 #     print(ind,":", val)
@@ -239,4 +239,22 @@ else:
             break
     else:
         print("Prime number")
+
+
+
+
+
+word = input("enter an word:-")
+rev = ""
+
+for ch in word:
+    rev = ch + rev
+    
+if word == rev:
+    print("Palindrome")
+    
+else:
+    print("Not Palindrome")
+    
+
             
