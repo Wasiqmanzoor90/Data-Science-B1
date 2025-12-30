@@ -229,32 +229,50 @@
 #         continue
 #     print(i)
 
-n = int(input("Enter an number"))
-if(n<=1):
-    print("Not a prime number")
-else:
-    for i in range(2,n):
-        if(n%i==0):
-            print("Not an Prime number")
-            break
-    else:
-        print("Prime number")
+# n = int(input("Enter an number"))
+# if(n<=1):
+#     print("Not a prime number")
+# else:
+#     for i in range(2,n):
+#         if(n%i==0):
+#             print("Not an Prime number")
+#             break
+#     else:
+#         print("Prime number")
 
 
 
 
 
-word = input("enter an word:-")
-rev = ""
+# word = input("enter an word:-")
+# rev = ""
 
-for ch in word:
-    rev = ch + rev
+# for ch in word:
+#     rev = ch + rev
     
-if word == rev:
-    print("Palindrome")
+# if word == rev:
+#     print("Palindrome")
     
-else:
-    print("Not Palindrome")
+# else:
+#     print("Not Palindrome")
     
 
             
+            
+# i = 25
+# while i < 30:
+#     i= int(input("Enter an number:-"))
+#     print(i)
+# else:
+#     print("You are done")
+
+while True:
+    n = int(input(":Enter an number:-"))
+    if(n%2==0):
+        print("Even number")
+    else:
+        print("odd number")
+    cht = input("Enter (yes/no) to repeat or close:-")
+    if cht != 'yes':
+        print("Bye Bye")
+        break
