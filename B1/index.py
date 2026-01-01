@@ -266,13 +266,30 @@
 # else:
 #     print("You are done")
 
-while True:
-    n = int(input(":Enter an number:-"))
-    if(n%2==0):
-        print("Even number")
-    else:
-        print("odd number")
-    cht = input("Enter (yes/no) to repeat or close:-")
-    if cht != 'yes':
-        print("Bye Bye")
-        break
+# while True:
+#     n = int(input(":Enter an number:-"))
+#     if(n%2==0):
+#         print("Even number")
+#     else:
+#         print("odd number")
+#     cht = input("Enter (yes/no) to repeat or close:-")
+#     if cht != 'yes':
+#         print("Bye Bye")
+#         break
+
+# a = 10
+# b=20
+# a,b = b,a
+# print(a,b)
+# temp = a
+# a = b
+# b= temp
+# print(a,b)
+# for i in range(1,11)
+
+
+from ok import add
+a = int(input("Enter number 1:-"))
+b = int(input("enter number 2:-"))
+ab=add(a,b)
+print(ab)
