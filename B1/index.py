@@ -288,8 +288,26 @@
 # for i in range(1,11)
 
 
-from ok import add
-a = int(input("Enter number 1:-"))
-b = int(input("enter number 2:-"))
-ab=add(a,b)
-print(ab)
+# from ok import add
+# a = int(input("Enter number 1:-"))
+# b = int(input("enter number 2:-"))
+# ab=add(a,b)
+# print(ab)
+# def add(lt):
+#     return lt.append(100)
+
+# lst = [22,33,45]
+# add(lst)
+# print(lst)
+
+# lst.append(10)
+    
+    
+
+def ok(x):
+  return x +10
+    
+
+num = 5
+tp=ok(num)
+print(tp)
