@@ -302,12 +302,23 @@
 
 # lst.append(10)
     
+# v=12  
+
+# def ok(y,z):
+#   print(y,z)
     
 
-def ok(x):
-  return x +10
-    
+# num = 5
+# n1 = 6
+# ok(num,n1)
 
-num = 5
-tp=ok(num)
-print(tp)
+# add = lambda x,y:x+y
+
+# ok=add(12,13)
+# print(ok)
+
+check_num = lambda x:'Even' if x%2==0 else 'odd'
+
+
+num = int(input("Enter an number:-"))
+print(check_num(num))
