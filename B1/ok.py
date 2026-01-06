@@ -1,2 +1,6 @@
-def add (a,b):
-    return a+b
+class ok:
+    def he(self):
+        print("Hello")
+        
+o = ok()
+o.he()

@@ -1,0 +1,185 @@
+
+# # #int
+# # a = 10
+# # print(a)
+
+# # #strings
+
+# # b = '10'
+# # print(b)
+
+# # #bool
+# # c = True
+# # print(c)
+
+# # #float
+# # d =10.324
+# # print(d)
+
+# #Athmatic operation
+# #addition
+# a = 10
+# b = 20
+# c = a +b
+# print('Addition:-',c)
+
+
+# #subtraction
+# a = 30
+# b = 10
+# c = a - b
+# print('Subtraction',c)
+
+
+# a =5
+# b =3
+# c = a * b
+# print("Multiplication:", c)
+
+# a =9
+# b = 2
+# c = a/b
+# print("Divide:",c)
+
+
+# a =10
+# b = 2
+# c = a%b
+# print("Modlus:",c)
+
+
+# a =5
+# b = 3
+# c = a ** b
+# print("Raise Power:",c)
+
+# a =9
+# b = 2
+# c = a // b
+# print("floor division:",c)
+
+
+# a = 6
+# b = 3
+# z =a **b
+# print(z)
+
+# a =  -15
+# b =4
+# z = a // b
+# print(z)
+
+
+
+#Cpmparison
+# == basicaly it compares a with b
+# a = 10
+# b = 20
+# print(a == b)
+
+#> this sign mean if a is greater than b and >= either eqilt to greater than
+# a = 20
+# b =20
+# print(a>=b)
+
+#<= this signs means if a is leass than or equal to b
+# a = 50
+# b =20
+# print(a<=b)
+
+#!= basicaly it shows a is equal to b
+# a = 10
+# b =10
+# print(a != b)
+
+
+# a = 10
+# b = 10
+# print(a != b)
+
+
+#Assigment operator
+# a = 20
+# a+=10
+# a = a+10
+# print(a)
+
+
+# b = 30
+# b-=3
+# print(b)
+
+
+# c = 30
+# c*=2
+# print(c)
+
+
+# d = 10
+# d/=2
+# print(d)
+
+
+# d = 10
+# d%=2
+# print(d)
+
+
+# a = 10
+# b = 20
+# a = b
+# b = a
+# temp = a
+# a = b
+# b = temp
+# print(b,a)
+# a,b =b,a
+# print(a,b)
+
+
+# a = 'wasiq'
+# print(a)
+
+# b='ahmad'
+# print(b)
+
+# c = 'ehsaan'
+# print(c)
+
+#so basically when we have to store multiple items or values in a single variable we use list
+#its indexed, here index mean numerical locaion present in the list
+#its mutable(changeble)
+#its ordered means it have same squesnce
+
+# lost = ['wasiq','ahmad', 'ehsaan',12,12.5,True]
+# lost[0]='ayaz' #update
+# print(lost)
+
+# a = input('enter your name:-')
+# print(a)
+
+# lst = [12,'home',11.5,True,'wasiq',123,'ubaid']
+# print(lst)
+# print(lst[:4])
+# print(lst[3:])
+# print(lst[1:4])
+
+
+lst = ['wasiq','abdul','ahmad','burhan',12,12.5]
+# lst[1]='abrar' 
+
+#so basically its finds the length of the list
+print(len(lst))
+#finds which data type it is
+print(type(lst))
+
+
+b = 'ubaid'
+print(b[2])
+#so basiclly uperr converts small to capital
+a = 'ahmad'
+print(a.upper())
+
+#capitab to small
+b = 'WASIQ'
+print(b.lower())
