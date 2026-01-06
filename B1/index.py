@@ -317,8 +317,11 @@
 # ok=add(12,13)
 # print(ok)
 
-check_num = lambda x:'Even' if x%2==0 else 'odd'
+# check_num = lambda x:'Even' if x%2==0 else 'odd'
 
 
-num = int(input("Enter an number:-"))
-print(check_num(num))
+# num = int(input("Enter an number:-"))
+# print(check_num(num))
+
+
+
