@@ -165,21 +165,35 @@
 # print(lst[1:4])
 
 
-lst = ['wasiq','abdul','ahmad','burhan',12,12.5]
-# lst[1]='abrar' 
+# lst = ['wasiq','abdul','ahmad','burhan',12,12.5]
+# # lst[1]='abrar' 
 
-#so basically its finds the length of the list
-print(len(lst))
-#finds which data type it is
-print(type(lst))
+# #so basically its finds the length of the list
+# print(len(lst))
+# #finds which data type it is
+# print(type(lst))
 
 
-b = 'ubaid'
-print(b[2])
-#so basiclly uperr converts small to capital
-a = 'ahmad'
-print(a.upper())
+# b = 'ubaid'
+# print(b[2])
+# #so basiclly uperr converts small to capital
+# a = 'ahmad'
+# print(a.upper())
 
-#capitab to small
-b = 'WASIQ'
-print(b.lower())
+# #capitab to small
+# b = 'WASIQ'
+# print(b.lower())
+
+
+# lst = ['Ahmad',12,34.56,True,'Abdul']
+# lst[0]='Abrar'  #update
+# lst.append('wasiq') #when we inset without index
+# lst.insert(0,'Hanan') #when  we add with index
+# lst.remove('Abdul')  #when we remove direct by value
+# lst.pop(2) #when we remove by index
+# print(lst)
+
+#we can store multiple items in a single variable,its immutable,its indexed,its ordered,its allows duplicate valye
+tple =(12,'abdul','hanan',True,12.45,'abdul')
+# tple[1]='wasiq'
+print(tple)
