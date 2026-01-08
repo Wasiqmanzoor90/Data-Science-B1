@@ -1,15 +1,19 @@
-class hello:
-    def hi(self,name,age):
-      print("Hello",name)
-      print("Your age is",age)
-      
+class calculator:
+  
+  def __init__(self):
+    print("im from Calculator")
 
-    def bye(self,name):
-          print("Goodbye",name)
+    self.add(12,23)
+   
+  
+  def add(self,a,b):
+    print(a+b)
+    
+    
 
-he = hello()
-he.hi("wasiq",21)
-he.bye("Abdul")
-
-
-dict.items()
+  def nahitho(self):
+    print("ok ")
+    
+    
+cal=calculator()
+dicy.items()
