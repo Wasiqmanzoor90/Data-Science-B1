@@ -194,6 +194,25 @@
 # print(lst)
 
 #we can store multiple items in a single variable,its immutable,its indexed,its ordered,its allows duplicate valye
-tple =(12,'abdul','hanan',True,12.45,'abdul')
-# tple[1]='wasiq'
-print(tple)
+# tple =(12,'abdul','hanan',True,12.45,'abdul')
+# # tple[1]='wasiq'
+# print(tple)
+
+#set stores multiple value or items in a single variable. its unorderd, its un indexed , it does not allow duplicate value,mutable
+# st ={"Ehsan",'Abrar',12,45,78.90,
+# "Ehsan"}
+# st.add("umer")
+# st.remove("Abrar")
+# print(st)
+
+#it stores multiple values or items in single variable through process key value pairs, is it ordered, its in ky value, its mutable
+dt = {
+    "name":"monis",
+    "rollno":21,
+    "pincode":190001,
+    
+}
+dt["pincode"]=192121  #update
+dt['Gender']='Male'
+dt.pop('rollno')
+print(dt)
