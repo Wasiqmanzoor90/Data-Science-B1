@@ -3,17 +3,14 @@ class calculator:
   def __init__(self):
     print("im from Calculator")
 
-    self.add(12,23)
-   
-  
-  def add(self,a,b):
+    self.__add(12,12)
+  def __add(self,a,b):
     print(a+b)
-    
-    
 
-  def nahitho(self):
-    print("ok ")
+  def sub(self,a,b):
+    print(a-b)
     
     
 cal=calculator()
-dicy.items()
+
+cal.sub(12,23)
