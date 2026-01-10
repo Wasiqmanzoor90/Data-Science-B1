@@ -206,13 +206,20 @@
 # print(st)
 
 #it stores multiple values or items in single variable through process key value pairs, is it ordered, its in ky value, its mutable
-dt = {
-    "name":"monis",
-    "rollno":21,
-    "pincode":190001,
+# dt = {
+#     "name":"monis",
+#     "rollno":21,
+#     "pincode":190001,
     
-}
-dt["pincode"]=192121  #update
-dt['Gender']='Male'
-dt.pop('rollno')
-print(dt)
+# }
+# dt["pincode"]=192121  #update
+# dt['Gender']='Male'
+# dt.pop('rollno')
+# print(dt)
+
+lt = [['wasiq',12,34,56,90,32,'ubaid'],['umer','kazim',34,56,34]]
+lt[0][6]='Ahsaan'  #update in nesting list
+lt.append('ayaz')   #we add without index
+lt[0].insert(3,'Moonis')  #we add with index
+del lt[0][0]  #we remove
+print(lt)
