@@ -1,0 +1,245 @@
+
+# # #int
+# # a = 10
+# # print(a)
+
+# # #strings
+
+# # b = '10'
+# # print(b)
+
+# # #bool
+# # c = True
+# # print(c)
+
+# # #float
+# # d =10.324
+# # print(d)
+
+# #Athmatic operation
+# #addition
+# a = 10
+# b = 20
+# c = a +b
+# print('Addition:-',c)
+
+
+# #subtraction
+# a = 30
+# b = 10
+# c = a - b
+# print('Subtraction',c)
+
+
+# a =5
+# b =3
+# c = a * b
+# print("Multiplication:", c)
+
+# a =9
+# b = 2
+# c = a/b
+# print("Divide:",c)
+
+
+# a =10
+# b = 2
+# c = a%b
+# print("Modlus:",c)
+
+
+# a =5
+# b = 3
+# c = a ** b
+# print("Raise Power:",c)
+
+# a =9
+# b = 2
+# c = a // b
+# print("floor division:",c)
+
+
+# a = 6
+# b = 3
+# z =a **b
+# print(z)
+
+# a =  -15
+# b =4
+# z = a // b
+# print(z)
+
+
+
+#Cpmparison
+# == basicaly it compares a with b
+# a = 10
+# b = 20
+# print(a == b)
+
+#> this sign mean if a is greater than b and >= either eqilt to greater than
+# a = 20
+# b =20
+# print(a>=b)
+
+#<= this signs means if a is leass than or equal to b
+# a = 50
+# b =20
+# print(a<=b)
+
+#!= basicaly it shows a is equal to b
+# a = 10
+# b =10
+# print(a != b)
+
+
+# a = 10
+# b = 10
+# print(a != b)
+
+
+#Assigment operator
+# a = 20
+# a+=10
+# a = a+10
+# print(a)
+
+
+# b = 30
+# b-=3
+# print(b)
+
+
+# c = 30
+# c*=2
+# print(c)
+
+
+# d = 10
+# d/=2
+# print(d)
+
+
+# d = 10
+# d%=2
+# print(d)
+
+
+# a = 10
+# b = 20
+# a = b
+# b = a
+# temp = a
+# a = b
+# b = temp
+# print(b,a)
+# a,b =b,a
+# print(a,b)
+
+
+# a = 'wasiq'
+# print(a)
+
+# b='ahmad'
+# print(b)
+
+# c = 'ehsaan'
+# print(c)
+
+#so basically when we have to store multiple items or values in a single variable we use list
+#its indexed, here index mean numerical locaion present in the list
+#its mutable(changeble)
+#its ordered means it have same squesnce
+
+# lost = ['wasiq','ahmad', 'ehsaan',12,12.5,True]
+# lost[0]='ayaz' #update
+# print(lost)
+
+# a = input('enter your name:-')
+# print(a)
+
+# lst = [12,'home',11.5,True,'wasiq',123,'ubaid']
+# print(lst)
+# print(lst[:4])
+# print(lst[3:])
+# print(lst[1:4])
+
+
+# lst = ['wasiq','abdul','ahmad','burhan',12,12.5]
+# # lst[1]='abrar' 
+
+# #so basically its finds the length of the list
+# print(len(lst))
+# #finds which data type it is
+# print(type(lst))
+
+
+# b = 'ubaid'
+# print(b[2])
+# #so basiclly uperr converts small to capital
+# a = 'ahmad'
+# print(a.upper())
+
+# #capitab to small
+# b = 'WASIQ'
+# print(b.lower())
+
+
+# lst = ['Ahmad',12,34.56,True,'Abdul']
+# lst[0]='Abrar'  #update
+# lst.append('wasiq') #when we inset without index
+# lst.insert(0,'Hanan') #when  we add with index
+# lst.remove('Abdul')  #when we remove direct by value
+# lst.pop(2) #when we remove by index
+# print(lst)
+
+#we can store multiple items in a single variable,its immutable,its indexed,its ordered,its allows duplicate valye
+# tple =(12,'abdul','hanan',True,12.45,'abdul')
+# # tple[1]='wasiq'
+# print(tple)
+
+#set stores multiple value or items in a single variable. its unorderd, its un indexed , it does not allow duplicate value,mutable
+# st ={"Ehsan",'Abrar',12,45,78.90,
+# "Ehsan"}
+# st.add("umer")
+# st.remove("Abrar")
+# print(st)
+
+#it stores multiple values or items in single variable through process key value pairs, is it ordered, its in ky value, its mutable
+# dt = {
+#     "name":"monis",
+#     "rollno":21,
+#     "pincode":190001,
+    
+# }
+# dt["pincode"]=192121  #update
+# dt['Gender']='Male'
+# dt.pop('rollno')
+# print(dt)
+
+# lt = [['wasiq',12,34,56,90,32,'ubaid'],['umer','kazim',34,56,34]]
+# lt[0][6]='Ahsaan'  #update in nesting list
+# lt.append('ayaz')   #we add without index
+# lt[0].insert(3,'Moonis')  #we add with index
+# del lt[0][0]  #we remove
+# print(lt)
+
+lst = [[['ubaid',12,89,76],['umer','khubaib',True,90.56]],  [['ayaz',126.89,11],['khan',125,97]],  [['Adeena',11,34.5],[432,90,63,'Ahmad']]]
+# print(lst[2][0][0])
+# print(lst[0][1][1])
+# print(lst[2][1][0])
+# print(lst[1][1][0])
+# print(lst[1][1][2])
+# print(lst[1][0][1])
+# print(lst[0][1][3])
+lst[1][0][0]='wasiq'
+lst[0][1].insert(1,'saliq')
+del lst[1][1][0]
+print(lst)
+
+
+dit = {
+    "1":{"name":"wasiq","pincode":190001},
+    "2":{"name":"umer","pincode":190002},
+    "3":{"name":"owais","pincode":190003},
+}
