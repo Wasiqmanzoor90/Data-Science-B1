@@ -243,3 +243,9 @@ dit = {
     "2":{"name":"umer","pincode":190002},
     "3":{"name":"owais","pincode":190003},
 }
+
+dit = {
+    "1":{"name":"wasiq","pincode":190001},
+    "2":{"name":"umer","pincode":190002},
+    "3":{"name":"owais","pincode":190003},
+}
