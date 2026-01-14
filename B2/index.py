@@ -224,28 +224,43 @@
 # del lt[0][0]  #we remove
 # print(lt)
 
-lst = [[['ubaid',12,89,76],['umer','khubaib',True,90.56]],  [['ayaz',126.89,11],['khan',125,97]],  [['Adeena',11,34.5],[432,90,63,'Ahmad']]]
-# print(lst[2][0][0])
-# print(lst[0][1][1])
-# print(lst[2][1][0])
-# print(lst[1][1][0])
-# print(lst[1][1][2])
-# print(lst[1][0][1])
-# print(lst[0][1][3])
-lst[1][0][0]='wasiq'
-lst[0][1].insert(1,'saliq')
-del lst[1][1][0]
-print(lst)
+# lst = [[['ubaid',12,89,76],['umer','khubaib',True,90.56]],  [['ayaz',126.89,11],['khan',125,97]],  [['Adeena',11,34.5],[432,90,63,'Ahmad']]]
+# # print(lst[2][0][0])
+# # print(lst[0][1][1])
+# # print(lst[2][1][0])
+# # print(lst[1][1][0])
+# # print(lst[1][1][2])
+# # print(lst[1][0][1])
+# # print(lst[0][1][3])
+# lst[1][0][0]='wasiq'
+# lst[0][1].insert(1,'saliq')
+# del lst[1][1][0]
+# print(lst)
 
 
-dit = {
-    "1":{"name":"wasiq","pincode":190001},
-    "2":{"name":"umer","pincode":190002},
-    "3":{"name":"owais","pincode":190003},
-}
+# dit = {
+#     "1":{"name":"wasiq","pincode":190001},
+#     "2":{"name":"umer","pincode":190002},
+#     "3":{"name":"owais","pincode":190003},
+# }
 
-dit = {
-    "1":{"name":"wasiq","pincode":190001},
-    "2":{"name":"umer","pincode":190002},
-    "3":{"name":"owais","pincode":190003},
-}
+# dit = {
+#     "1":{"name":"wasiq","pincode":190001},
+#     "2":{"name":"umer","pincode":190002},
+#     "3":{"name":"owais","pincode":190003},
+# }
+
+dt ={
+    
+    "1":{"Name":{"Firstname":"Abrar","Lastname":"iqbal"},"adress":{"pincode":190001,"city":"ompora"},"country":{"state":"kashmir","district":"Budgam"}},
+    "2":{"Name":{"Firstname":"Moonis","Lastname":"Farooq"},"adress":{"pincode":190002,"city":"harwan"},"country":{"state":"kashmir","district":"srinagra"}},
+    "3":{"Name":{"Firstname":"tufail","Lastname":"Bakshi"},"adress":{"pincode":190003,"city":"mataan"},"country":{"state":"kashmir","district":"anatnag"}},
+}   
+
+dt["1"]['Name']['Firstname']='Ubaid'  #update
+dt['4']={"Name":{"Firstname":"Ayaz","Lastname":"Parray"},"adress":{"pincode":190003,"city":"harwan"},"country":{"state":"kashmir","district":"srinagra"}},
+del dt["3"]['Name']["Lastname"]
+# print(dt["1"]['Name']['Firstname'])
+# print(dt["1"]['adress']['city'])
+print(dt["3"])
+
