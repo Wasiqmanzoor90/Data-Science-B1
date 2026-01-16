@@ -271,8 +271,31 @@
 #     print("You are not elgible")
 
 
-grade = input("Enter your grades")
-if (grade == 'A'):
-    print("Pass")
+# grade = input("Enter your grades")
+# if (grade == 'A'):
+#     print("Pass")
+# else:
+#     print("Fail")
+
+# age = int(input("Enter you age:-"))
+# if (age>18):
+#     print("You are elgible")
+# else:
+#     print("You are not elgible")
+
+# num = int(input("Enter an number:-"))
+# if(num % 2 == 0):
+#     print("Its an evem number")
+# else:
+#     print("Its an odd number")
+
+
+grade = input("Enter you grade:-")
+if(grade == 'A'):
+    print("Topper")
+elif(grade =='B'):
+    print("Good Student")
+elif(grade == 'C'):
+    print("Avergae")
 else:
     print("Fail")
