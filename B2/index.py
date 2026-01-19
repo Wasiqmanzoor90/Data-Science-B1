@@ -290,12 +290,33 @@
 #     print("Its an odd number")
 
 
-grade = input("Enter you grade:-")
-if(grade == 'A'):
-    print("Topper")
-elif(grade =='B'):
-    print("Good Student")
-elif(grade == 'C'):
-    print("Avergae")
-else:
-    print("Fail")
+# grade = input("Enter you grade:-")
+# if(grade == 'A'):
+#     print("Topper")
+# elif(grade =='B'):
+#     print("Good Student")
+# elif(grade == 'C'):
+#     print("Avergae")
+# else:
+#     print("Fail")
+
+try:
+    n1 = float(input("Enter ist number:-"))
+    op = input("Enter an operator(+,-,*,/,%)")
+    n2 =  float(input("Enter second number:-"))
+
+    if(op == '+'):
+        print(n1+n2)
+    elif(op == '-'):
+        print(n1-n2)
+    elif(op == '*'):
+        print(n1*n2)
+    elif(op =='/'):
+        print(n1/n2)
+    elif(op=='%'):
+        print(n1% n2)
+    else:
+        print("Invalid operator")
+except ZeroDivisionError:
+    print("Cant dived by zero")
+    
