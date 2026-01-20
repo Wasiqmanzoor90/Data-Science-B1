@@ -300,23 +300,37 @@
 # else:
 #     print("Fail")
 
-try:
-    n1 = float(input("Enter ist number:-"))
-    op = input("Enter an operator(+,-,*,/,%)")
-    n2 =  float(input("Enter second number:-"))
+# try:
+#     n1 = float(input("Enter ist number:-"))
+#     op = input("Enter an operator(+,-,*,/,%)")
+#     n2 =  float(input("Enter second number:-"))
 
-    if(op == '+'):
-        print(n1+n2)
-    elif(op == '-'):
-        print(n1-n2)
-    elif(op == '*'):
-        print(n1*n2)
-    elif(op =='/'):
-        print(n1/n2)
-    elif(op=='%'):
-        print(n1% n2)
-    else:
-        print("Invalid operator")
-except ZeroDivisionError:
-    print("Cant dived by zero")
+#     if(op == '+'):
+#         print(n1+n2)
+#     elif(op == '-'):
+#         print(n1-n2)
+#     elif(op == '*'):
+#         print(n1*n2)
+#     elif(op =='/'):
+#         print(n1/n2)
+#     elif(op=='%'):
+#         print(n1% n2)
+#     else:
+#         print("Invalid operator")
+# except ZeroDivisionError:
+#     print("Cant dived by zero")
     
+    
+# print("My name is Ahmad")
+# print("My name is Ahmad")
+# print("My name is Ahmad")
+# print("My name is Ahmad")
+# print("My name is Ahmad")
+
+# for i in range(0,20,2):
+#     print(i)
+
+tab = 3
+for i in range(1,11):
+    res = tab *i
+    print(tab,'x',i,'=',res)
