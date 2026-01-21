@@ -53,12 +53,29 @@
 # print(yz)
 
 
-xyz = 5**5
-print(xyz)
+# xyz = 5**5
+# print(xyz)
 
 
-b = 7/3
+# b = 7/3
+# print(b)
+
+# c = 7//3
+# print(c)
+
+
+#its a int data type
+a = 10
+print(a)
+
+#its is string data type
+b = '20'
 print(b)
 
-c = 7//3
-print(c)
+# its bool data type
+c = True
+print(type(c))
+
+#its float data type
+d = 24.65
+print(type(d))

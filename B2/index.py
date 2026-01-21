@@ -330,7 +330,40 @@
 # for i in range(0,20,2):
 #     print(i)
 
-tab = 3
+# tab = 3
+# for i in range(1,11):
+#     res = tab *i
+#     print(tab,'x',i,'=',res)
+
+
+# lst =['Wasiq','Ahmad','Ubaid','Moonis','Ehsaan']
+# for names in lst:
+#     print(names)
+    
+# a = 'Ahsaan'
+# for y in a:
+#     print(y)
+    
+# dic={
+
+#     'name':'wasiq',
+#     "roll-no":12,
+#     "adress":190001
+# }
+
+# for key,value in dic.items():
+#     print(key,':',value)
+
+#break
 for i in range(1,11):
-    res = tab *i
-    print(tab,'x',i,'=',res)
+    if i == 5:
+       break
+    print(i)
+    
+
+#continue
+for i in range(1,11):
+    if i > 5:
+       continue
+    print(i)
+    
