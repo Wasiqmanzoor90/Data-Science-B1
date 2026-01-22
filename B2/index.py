@@ -355,15 +355,66 @@
 #     print(key,':',value)
 
 #break
-for i in range(1,11):
-    if i == 5:
-       break
-    print(i)
+# for i in range(1,11):
+#     if i == 5:
+#        break
+#     print(i)
     
 
-#continue
-for i in range(1,11):
-    if i > 5:
-       continue
-    print(i)
+#Skip the rest of this loop iteration and move to the next one.
+
     
+# for i in range(1,11):
+#    if i == 5:
+#       break
+#    print(i)    
+
+
+# for i in range(1,11):
+#    if i > 5:
+#       continue
+#    print(i)
+
+   
+    
+
+# dico ={
+#    "name":"wasiq",
+#    "Roll-no":'12',
+#    "adress":190001
+# }
+# for key,value in dico.items():
+#    if key == 'Roll-no':
+#       continue
+#    print(key, ':',value)
+   
+# lt = [11,'ubaid',45,90,76]
+# for l in lt:
+#    if l == 'ubaid':
+#       continue
+#    print(l)
+
+
+# num =  [11,34,45,89,71,49,61,32,10,90,76]
+# flag = 0
+# x = int(input("Enter an nmber:-"))
+# for nums in num:
+#    if nums == x:
+#       flag =1
+      
+# if flag == 1:
+#    print(x, 'is in the list')
+# else:
+#    print(x,'is not in the list')
+
+#9
+n = int(input("Enter an number:-"))
+if (n<=1):
+   print('Not Prime')
+else:
+   for i in range(2,n):
+      if(n%i ==0):
+         print('Not prime Number')
+         break
+   else:
+      print('Prime Number')
