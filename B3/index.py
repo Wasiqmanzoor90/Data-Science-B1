@@ -85,27 +85,71 @@
 # b = a
 # print(b)
 
-#equal to
-a =20
-b=30
-print(a == b)
+# #equal to
+# a =20
+# b=30
+# print(a == b)
 
-#greater than equal to
-c = 40
-d =20
-print(c>=d)
+# #greater than equal to
+# c = 40
+# d =20
+# print(c>=d)
 
-#less than equal to 
-c = 30
-d = 30
-print(c<=d)
+# #less than equal to 
+# c = 30
+# d = 30
+# print(c<=d)
 
-#greate than equal to
-age =18
-print(age>=18)
+# #greate than equal to
+# age =18
+# print(age>=18)
 
 
-#not equal to
-df =20
-de = 10
-print(df!=de)
+# #not equal to
+# df =20
+# de = 10
+# print(df!=de)
+
+
+#Assigment operator
+# a = 10
+# b = a
+# print(b)
+
+a = 10
+# a = a + 5 
+a += 5
+print(a)
+
+b = 14
+# b = b - 4
+b-=4
+print(b)
+
+c = 4
+c*=4
+print(c)
+
+f = 6
+f/=6
+print(f)
+
+n = 7
+n%=3
+print
+
+l = 9
+l%=2
+print(l)
+
+k = 11
+k%=3
+print(k)
+
+o = 13
+o%=3
+print(o)
+
+j = 17
+j%=3
+print(j)

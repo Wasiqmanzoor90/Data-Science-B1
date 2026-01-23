@@ -408,13 +408,49 @@
 #    print(x,'is not in the list')
 
 #9
-n = int(input("Enter an number:-"))
-if (n<=1):
-   print('Not Prime')
+# n = int(input("Enter an number:-"))
+# if (n<=1):
+#    print('Not Prime')
+# else:
+#    for i in range(2,n):
+#       if(n%i ==0):
+#          print('Not prime Number')
+#          break
+#    else:
+#       print('Prime Number')
+
+#11
+# n = int(input("Enter an number:-"))
+# if n<=1:
+#    print("Not Prime")
+# else:
+#    for i in range(2,n):
+#       if n%i==0:
+#          print("Not Prime")
+#          break
+#    else:
+#       print("Prime number")
+
+#hello
+#Mom
+word = input("Enter an Word:-")
+rev = ""  #enpty varibale
+for ch in word:  # word int ch
+   rev = ch + rev 
+   #M + ""= M
+    #o + M = OM
+    #M +OM = MOM
+    
+    
+   #h + "" = h
+   #e + h = eh
+   # l + eh = leh
+   # l +leh = lleh
+   # o + lleh = olleh
+ 
+ #hello =  olleh  
+ #Mom   = Mom
+if word == rev:
+   print("Palindrome")
 else:
-   for i in range(2,n):
-      if(n%i ==0):
-         print('Not prime Number')
-         break
-   else:
-      print('Prime Number')
+   print("Not Palindrome")
