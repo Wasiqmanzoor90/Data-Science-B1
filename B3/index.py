@@ -116,40 +116,61 @@
 # b = a
 # print(b)
 
-a = 10
-# a = a + 5 
-a += 5
+# a = 10
+# # a = a + 5 
+# a += 5
+# print(a)
+
+# b = 14
+# # b = b - 4
+# b-=4
+# print(b)
+
+# c = 4
+# c*=4
+# print(c)
+
+# f = 6
+# f/=6
+# print(f)
+
+# n = 7
+# n%=3
+# print
+
+# l = 9
+# l%=2
+# print(l)
+
+# k = 11
+# k%=3
+# print(k)
+
+# o = 13
+# o%=3
+# print(o)
+
+# j = 17
+# j%=3
+# print(j)
+
+# a =input("Enter your name:-")
+# print(a)
+
+# a= 'aiman'
+# print(a)
+
+
+# b= 'aqib'
+# print(b)
+
+# c= 12
+# print(c)
+a = input("enter your name")
 print(a)
 
-b = 14
-# b = b - 4
-b-=4
-print(b)
+#list is an an data type which is used to store multiple values in a single variable, its indexed
+#its ordered and allows duplicate values
 
-c = 4
-c*=4
-print(c)
-
-f = 6
-f/=6
-print(f)
-
-n = 7
-n%=3
-print
-
-l = 9
-l%=2
-print(l)
-
-k = 11
-k%=3
-print(k)
-
-o = 13
-o%=3
-print(o)
-
-j = 17
-j%=3
-print(j)
+# lst = ['aiman','aqib',12,67.89,True,13,'reeba','adnan','reeba']
+# print(lst)

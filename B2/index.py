@@ -431,26 +431,76 @@
 #    else:
 #       print("Prime number")
 
-#hello
 #Mom
-word = input("Enter an Word:-")
-rev = ""  #enpty varibale
-for ch in word:  # word int ch
-   rev = ch + rev 
-   #M + ""= M
-    #o + M = OM
-    #M +OM = MOM
+#hello
+# word = input("Enter an Word:-")
+# rev = ""
+# for ch in word:
+    #rev = M + ""
+    #rev = o + M = OM
+    #rev = M + OM = MOM
+    
+    #rev = h + "" = h
+    #rev = e + h = eh
+    #rev = l + eh = leh
+    #rev = l + leh = lleh
+    #rev = o + lleh = olleh
+    #olleh
+    
+    # rev = ch +rev
+    #hello = olleh
+    #Mom = Mom
+# if word == rev:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome")
+    
+# word = input("Enter an Word:-")
+# rev = ""  #enpty varibale
+# for ch in word:  # word int ch
+#    rev = ch + rev 
+#    #M + ""= M
+#     #o + M = OM
+#     #M +OM = MOM
     
     
-   #h + "" = h
-   #e + h = eh
-   # l + eh = leh
-   # l +leh = lleh
-   # o + lleh = olleh
+#    #h + "" = h
+#    #e + h = eh
+#    # l + eh = leh
+#    # l +leh = lleh
+#    # o + lleh = olleh
  
- #hello =  olleh  
- #Mom   = Mom
-if word == rev:
-   print("Palindrome")
-else:
-   print("Not Palindrome")
+#  #hello =  olleh  
+#  #Mom   = Mom
+# if word == rev:
+#    print("Palindrome")
+# else:
+#    print("Not Palindrome")
+
+
+# for i in range(3): #outer loop
+#     print(i)
+#     for j in range(3): 
+#         print(i)
+
+
+# for i in range(5):
+#     print()
+#     for j in range(3):
+#         print("Hello",end="  ")
+
+# i = 0
+# while i <= 30:
+#     i = int(input("Enter an number:-"))
+#     print(i)
+    
+while True:
+    n = int(input("Enter an number:-"))
+    if n% 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+    cht = input("Enter yes to repeat")
+    if cht !='yes':
+        print("You are done")
+        break
