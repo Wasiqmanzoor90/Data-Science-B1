@@ -166,11 +166,16 @@
 
 # c= 12
 # print(c)
-a = input("enter your name")
-print(a)
+# a = input("enter your name")
+# print(a)
 
 #list is an an data type which is used to store multiple values in a single variable, its indexed
-#its ordered and allows duplicate values
+#its ordered and allows duplicate values, its mutable(changeble)
 
-# lst = ['aiman','aqib',12,67.89,True,13,'reeba','adnan','reeba']
-# print(lst)
+lst = ['aiman','aqib',12,67.89,True,13,'reeba','adnan','reeba']
+lst[6] = 'jasira'  #update by index 
+lst.append("Hena")  #add by direct value where we dont give index so thats why it comes in last position
+lst.insert(5,'adnan malik')  #add by index at particular place
+lst.remove('adnan malik')   #remove by direct by value
+lst.pop(1) #remove by index
+print(lst)

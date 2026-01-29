@@ -494,13 +494,44 @@
 #     i = int(input("Enter an number:-"))
 #     print(i)
     
-while True:
-    n = int(input("Enter an number:-"))
-    if n% 2 == 0:
-        print("Even number")
-    else:
-        print("Odd number")
-    cht = input("Enter yes to repeat")
-    if cht !='yes':
-        print("You are done")
-        break
+# while True:
+#     n = int(input("Enter an number:-"))
+#     if n% 2 == 0:
+#         print("Even number")
+#     else:
+#         print("Odd number")
+#     cht = input("Enter yes to repeat")
+#     if cht !='yes':
+#         print("You are done")
+#         break
+
+
+
+
+def add(n1,n2):
+    print(n1+n2)
+
+def sub(n1,n2):
+    print(n1-n2,'subtraction')
+
+
+
+a = int(input("Enter ist number:-"))
+b = int(input("Enter second number:-")) 
+add(a,b)
+sub(a,b)
+
+# a = 12
+# b= 19
+# if(a>18 and b>18):
+#     print("Both are elgible")
+# else:
+#     print("Both are not elgible")
+    
+# a = 12
+# b= 19
+# if(a>18 or b>18):
+#     print("Both are elgible")
+# else:
+#     print("Both are not elgible")
+
