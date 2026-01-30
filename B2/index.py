@@ -508,18 +508,18 @@
 
 
 
-def add(n1,n2):
-    print(n1+n2)
+# def add(n1,n2):
+#     print(n1+n2)
 
-def sub(n1,n2):
-    print(n1-n2,'subtraction')
+# def sub(n1,n2):
+#     print(n1-n2,'subtraction')
 
 
 
-a = int(input("Enter ist number:-"))
-b = int(input("Enter second number:-")) 
-add(a,b)
-sub(a,b)
+# a = int(input("Enter ist number:-"))
+# b = int(input("Enter second number:-")) 
+# add(a,b)
+# sub(a,b)
 
 # a = 12
 # b= 19
@@ -535,3 +535,38 @@ sub(a,b)
 # else:
 #     print("Both are not elgible")
 
+
+
+
+
+def add(a,b):
+  
+    print(a+b)
+    
+def sub(a,b):
+    print(a-b)
+
+#5
+# n1 = int(input("Enter an first number:-"))
+# #6
+# n2 = int(input("Enter an second number"))
+# add(n1,n2)
+# sub(n1,n2)
+
+
+#in and operator both condition shoild be true
+a = 19
+b=11
+if(a>18 and b>18):
+    print('you are elgible')
+else:
+    print("You are disqualified")
+
+
+#in or operatar at least one condition true
+a = 19
+b=11
+if(a>18 or b>18):
+    print('you are elgible')
+else:
+    print("You are disqualified")

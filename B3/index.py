@@ -172,10 +172,30 @@
 #list is an an data type which is used to store multiple values in a single variable, its indexed
 #its ordered and allows duplicate values, its mutable(changeble)
 
-lst = ['aiman','aqib',12,67.89,True,13,'reeba','adnan','reeba']
-lst[6] = 'jasira'  #update by index 
-lst.append("Hena")  #add by direct value where we dont give index so thats why it comes in last position
-lst.insert(5,'adnan malik')  #add by index at particular place
-lst.remove('adnan malik')   #remove by direct by value
-lst.pop(1) #remove by index
-print(lst)
+# lst = ['aiman','aqib',12,67.89,True,13,'reeba','adnan','reeba']
+# lst[6] = 'jasira'  #update by index 
+# lst.append("Hena")  #add by direct value where we dont give index so thats why it comes in last position
+# lst.insert(5,'adnan malik')  #add by index at particular place
+# lst.remove('adnan malik')   #remove by direct by value
+# lst.pop(1) #remove by index
+# print(lst)
+
+
+# a = 'My name is Emaan'
+# print(a)
+
+# b = "My name is gazala"
+# print(b)
+
+# c =10
+# print(c)
+
+
+#its ordered,its mutable,its indexed ,it allows duplicate values
+lt  = ['My name is emaan','My name is gazala',10,'Aiman',123,'hanan',True,'khan']
+lt[5]='wasiq'  #it updates
+lt.append('Abdul')  #add value directly thats why its at last
+lt.insert(2,'reeba') #when we add by index at particular place
+lt.remove('Aiman') #when we remove direct by value
+lt.pop(5) #when we remove by index
+print(lt)
