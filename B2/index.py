@@ -555,18 +555,38 @@ def sub(a,b):
 
 
 #in and operator both condition shoild be true
-a = 19
-b=11
-if(a>18 and b>18):
-    print('you are elgible')
-else:
-    print("You are disqualified")
+# a = 19
+# b=11
+# if(a>18 and b>18):
+#     print('you are elgible')
+# else:
+#     print("You are disqualified")
 
 
-#in or operatar at least one condition true
-a = 19
-b=11
-if(a>18 or b>18):
-    print('you are elgible')
-else:
-    print("You are disqualified")
+# #in or operatar at least one condition true
+# a = 19
+# b=11
+# if(a>18 or b>18):
+#     print('you are elgible')
+# else:
+#     print("You are disqualified")
+
+
+
+# def evenodd(x):
+#     if x % 2 == 0:
+#         print("Even Number")
+#     else:
+#         print("Odd Number")
+
+# n = int(input("Enter an number:-"))
+# evenodd(n)
+
+# def table(tb):
+#     for i in range(1,11):
+#         Res =tb*i
+#         print(tb,'x',i,'=',Res)
+    
+    
+# t = int(input("Enter an number:-"))
+# table(t)

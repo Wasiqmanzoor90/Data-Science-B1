@@ -191,11 +191,33 @@
 # print(c)
 
 
-#its ordered,its mutable,its indexed ,it allows duplicate values
-lt  = ['My name is emaan','My name is gazala',10,'Aiman',123,'hanan',True,'khan']
-lt[5]='wasiq'  #it updates
-lt.append('Abdul')  #add value directly thats why its at last
-lt.insert(2,'reeba') #when we add by index at particular place
-lt.remove('Aiman') #when we remove direct by value
-lt.pop(5) #when we remove by index
-print(lt)
+# #its ordered,its mutable,its indexed ,it allows duplicate values
+# lt  = ['My name is emaan','My name is gazala',10,'Aiman',123,'hanan',True,'khan']
+# print(type(lt))
+# print(len(lt))
+# lt[5]='wasiq'  #it updates
+# lt.append('Abdul')  #add value directly thats why its at last
+# lt.insert(2,'reeba') #when we add by index at particular place
+# lt.remove('Aiman') #when we remove direct by value
+# lt.pop(5) #when we remove by index
+# print(lt)
+
+
+#in tuple we can store multiple items or values in a single varibla,its ordered,its indexed,it allows duplicate values
+#its immutable*(un-changeble)
+# tp = (12,'wasiq','hanan',23,110,'aiman',28,'adnan','wasiq')
+# print(type(tp))  #so basically type tell us which type of data is this
+# print(len(tp)) #len tell us how items or values or present inside a variable
+# tp[1]='abdul'
+# print(tp)
+
+
+#so basically it stores multiple items or values in a single varibale,its unordered,it doesn't allow duplicate values
+# ,its un-indexed,it only adds and remove by direct value,its doesnt update
+st = {'adnan',11,'Tabish',True,12.78,90,'adnan'}
+st.add('Aiman')  #add value directly thats why its at last
+st.remove(11)  #remove by direct value
+print(st)
+
+
+
