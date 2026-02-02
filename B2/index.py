@@ -590,3 +590,38 @@ def sub(a,b):
     
 # t = int(input("Enter an number:-"))
 # table(t)
+
+
+#its an anomys function that we use for small task
+# add = lambda a,b: a+b
+# print(add(12,34))
+
+
+# eveodd = lambda x: 'even' if x % 2 == 0  else'odd'
+# n = int(input("Enter an number:-"))
+# print(eveodd(n))
+
+
+#it itterates  the value from list and put it new varible
+# num =[2,4,6,9]
+# sq =list(map(lambda x: x**2,num))
+# print(sq)
+
+
+
+
+# add = lambda a,b: a+b
+# print(add(12,23))
+
+
+
+num =[ 2,4,6,8,9]
+sq = list(map(lambda x: x**2,num))
+print(sq)
+
+
+
+
+
+
+
