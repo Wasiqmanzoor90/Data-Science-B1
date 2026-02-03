@@ -212,12 +212,47 @@
 # print(tp)
 
 
-#so basically it stores multiple items or values in a single varibale,its unordered,it doesn't allow duplicate values
-# ,its un-indexed,it only adds and remove by direct value,its doesnt update
-st = {'adnan',11,'Tabish',True,12.78,90,'adnan'}
-st.add('Aiman')  #add value directly thats why its at last
-st.remove(11)  #remove by direct value
-print(st)
+# #so basically it stores multiple items or values in a single varibale,its unordered,it doesn't allow duplicate values
+# # ,its un-indexed,it only adds and remove by direct value,its doesnt update
+# st = {'adnan',11,'Tabish',True,12.78,90,'adnan'}
+# st.add('Aiman')  #add value directly thats why its at last
+# st.remove(11)  #remove by direct value
+# print(st)
 
 
 
+
+
+
+#its unordered,its unindexed,it doesnt allow duplicate value, it allow only add and remove
+# ty = {'Aiman',11,22,'Adnan',True,'Aiman'}
+# ty.add('Hina')
+# ty.remove('Aiman')
+# print(ty)
+
+
+
+# a = 'wasiq'
+# print(a[2])
+
+
+# b = 'jasira'
+# print(b.upper())
+
+# c = 'ADNAN'
+# print(c.lower())
+
+
+# a = 'Aiman'
+
+# print(a[1:5])
+
+
+# c = 'Khan'
+# print(c[1:])
+
+# d = 'Adnan'
+# print(d[:3])
+
+lt = ['Aiman','Adnan','Wasiq','Hina','Jasira','Emaan']
+print(lt[1:6])
