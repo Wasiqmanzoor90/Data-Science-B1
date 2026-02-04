@@ -615,13 +615,60 @@ def sub(a,b):
 
 
 
-num =[ 2,4,6,8,9]
-sq = list(map(lambda x: x**2,num))
-print(sq)
+# num =[ 2,4,6,8,9]
+# sq = list(map(lambda x: x**2,num))
+# print(sq)
+
+
+# num = [2,4,6,78,34]
+# sq = list(map(lambda x: x**2,num))
+# print(sq)
+
+
+# nums = ['11','31','23','19','51']
+# st = list(map(int,nums))
+# print(st)
+
+
+# names = ['BOB','ALICE','HANNAH','ALIM']
+# st = list(map(str.lower,names))
+# print(st)
+
+
+# num = [2,3,4,5,6,7,8,9]
+# st = list(filter(lambda x: x % 2 == 0, num))
+# print(st)
 
 
 
+# nums = [-21,5,-6,11,21,-11,8]
+# st = list(filter(lambda x: x>0,nums))
+# print(st)
 
 
+# words = ['apple','banana','kiwi','grape','avocado']
+# st = list(filter(lambda x: len(x)>5,words ))
+# print(st)
 
 
+#Object Oriented Programing Language(OOPS)
+# Four Pillars Of OOPS
+# Encapsulation, Polymorphism, Abstraction, Inheritence
+
+#Today we talk about classes and objects
+
+class Project:
+    def add():
+        a= 10
+        b=12
+        print(a+b)
+        
+    def sub():
+        a= 10
+        b=12
+        print(a-b)
+        
+pro = Project    #
+
+pro.add()
+pro.sub()
