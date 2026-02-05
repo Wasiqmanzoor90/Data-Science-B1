@@ -258,14 +258,27 @@
 #Dictionary stores multiple value in a single varibale throught the process  of key-value pairs
 #its ordered,it not indexed its key-valued pairs ,it alows duplication only for values but not for keys
 #its mutable(changable)
-dt={
-    "name":"Adnan",
-    "roll-no":21,
-    "Adress":"Kupwara",
-    "local":"Kupwara"
-}
-dt['name']='Ubaid' #updation with key
-dt["Parentage"] = 'khan'  #when we have add
-dt.pop('roll-no') #when we have to remove
-del dt["name"]  #another form of remove
-print(dt)
+# dt={
+#     "name":"Adnan",
+#     "roll-no":21,
+#     "Adress":"Kupwara",
+#     "local":"Kupwara"
+# }
+# dt['name']='Ubaid' #updation with key
+# dt["Parentage"] = 'khan'  #when we have add
+# dt.pop('roll-no') #when we have to remove
+# del dt["name"]  #another form of remove
+# print(dt)
+
+
+
+# #nested list means were we store multple list in a single list
+lt = [['Jasira',12,87,'Khalid','iram'],[97,82,'Hanan','Umer',45],[39,'Gazala',90,'khan',12.78]]
+
+lt[0][4]='Madeeha'  #here we update 
+lt[0].append("zubair")  #here we add by value
+lt[0].insert(1,'ubaid')  #here we add at particular place
+del lt[1][2]  #here we remove by index
+
+print(lt)
+
