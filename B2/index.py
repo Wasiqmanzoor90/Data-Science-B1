@@ -657,18 +657,28 @@ def sub(a,b):
 
 #Today we talk about classes and objects
 
-class Project:
-    def add():
-        a= 10
-        b=12
-        print(a+b)
+# class Project:
+#     def add():
+#         a= 10
+#         b=12
+#         print(a+b)
         
-    def sub():
-        a= 10
-        b=12
-        print(a-b)
+#     def sub():
+#         a= 10
+#         b=12
+#         print(a-b)
         
-pro = Project    #
+# pro = Project    #
 
-pro.add()
-pro.sub()
+# pro.add()
+# pro.sub()
+
+from index1 import chk
+
+x = int(input("Enter an number"))
+rsd=chk(x)
+print(rsd)
+
+
+
+
