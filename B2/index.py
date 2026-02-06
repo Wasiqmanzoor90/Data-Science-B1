@@ -539,13 +539,6 @@
 
 
 
-def add(a,b):
-  
-    print(a+b)
-    
-def sub(a,b):
-    print(a-b)
-
 #5
 # n1 = int(input("Enter an first number:-"))
 # #6
@@ -673,12 +666,63 @@ def sub(a,b):
 # pro.add()
 # pro.sub()
 
-from index1 import chk
+# from index1 import chk
 
-x = int(input("Enter an number"))
-rsd=chk(x)
-print(rsd)
+# x = int(input("Enter an number"))
+# rsd=chk(x)
+# print(rsd)
 
 
+
+#Polymorphism same function but diffrent behaviour
+#self is basically adress od an object
+
+
+# class Dog:
+#     def speak(self):
+        
+#         print("Dogs Bark!")
+   
+# class cat:
+#     def speak(self):
+#         print("Cats Meom")
+
+
+# d = Dog()
+# d.speak()
+
+# c = cat()
+# c.speak()
+
+
+
+
+#when we in inherit properties from parent class to child class
+# class Animal:
+#     def speak(self):
+#         print("Animal Speaks")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog Barks!")
+        
+# d = Dog()
+# d.speak()
+# d.bark()
+
+#contructor get runs automatically when the object of the class is created
+#it intialize by __init()__
+
+
+class Calc:
+    
+    def __init__(self):
+        print("Hello im from constructor")
+        self.add(12,13)
+    def add(self,a,b):
+        print(a+b)
+
+
+c = Calc()
 
 

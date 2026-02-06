@@ -272,13 +272,24 @@
 
 
 
-# #nested list means were we store multple list in a single list
-lt = [['Jasira',12,87,'Khalid','iram'],[97,82,'Hanan','Umer',45],[39,'Gazala',90,'khan',12.78]]
+# # #nested list means were we store multple list in a single list
+# lt = [['Jasira',12,87,'Khalid','iram'],[97,82,'Hanan','Umer',45],[39,'Gazala',90,'khan',12.78]]
 
-lt[0][4]='Madeeha'  #here we update 
-lt[0].append("zubair")  #here we add by value
-lt[0].insert(1,'ubaid')  #here we add at particular place
-del lt[1][2]  #here we remove by index
+# lt[0][4]='Madeeha'  #here we update 
+# lt[0].append("zubair")  #here we add by value
+# lt[0].insert(1,'ubaid')  #here we add at particular place
+# del lt[1][2]  #here we remove by index
 
-print(lt)
+# print(lt)
 
+#Nested Dictionary means when we store multiple dictionary in single ditionary
+dt = {
+    "1":{"name":"Jasira", "Roll-no":21, "Grade":"A"},
+    "2":{"name":"Adnan", "Roll-no":22, "Grade":"A"},
+    "3":{"name":"Aqib", "Roll-no":23, "Grade":"B"},
+    "4":{"name":"Tabish", "Roll-no":24, "Grade":"A+"}
+}
+dt["1"]["name"]="Madeeha"   #here we update
+dt["5"]={"name":"Reeba", "Roll-no":25, "Grade":"B+"}  #here we add
+del dt["1"]["Grade"]  #here we delete 
+print(dt)
