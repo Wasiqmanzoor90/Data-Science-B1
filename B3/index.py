@@ -283,13 +283,30 @@
 # print(lt)
 
 #Nested Dictionary means when we store multiple dictionary in single ditionary
-dt = {
-    "1":{"name":"Jasira", "Roll-no":21, "Grade":"A"},
-    "2":{"name":"Adnan", "Roll-no":22, "Grade":"A"},
-    "3":{"name":"Aqib", "Roll-no":23, "Grade":"B"},
-    "4":{"name":"Tabish", "Roll-no":24, "Grade":"A+"}
-}
-dt["1"]["name"]="Madeeha"   #here we update
-dt["5"]={"name":"Reeba", "Roll-no":25, "Grade":"B+"}  #here we add
-del dt["1"]["Grade"]  #here we delete 
-print(dt)
+# dt = {
+#     "1":{"name":"Jasira", "Roll-no":21, "Grade":"A"},
+#     "2":{"name":"Adnan", "Roll-no":22, "Grade":"A"},
+#     "3":{"name":"Aqib", "Roll-no":23, "Grade":"B"},
+#     "4":{"name":"Tabish", "Roll-no":24, "Grade":"A+"}
+# }
+# dt["1"]["name"]="Madeeha"   #here we update
+# dt["5"]={"name":"Reeba", "Roll-no":25, "Grade":"B+"}  #here we add
+# del dt["1"]["Grade"]  #here we delete 
+# print(dt)
+
+#nested 
+lt = [[['Ubaid',12,'Amir','Khan',32,True],['Reeba','Kinza',78,90]],   [[21,112,'Jasira','Adnan',809],['Aqib','emaan',91,48,12]]     ,[['Tabish','kazim',34,'Nayla'],['Saba','umer',213,87]]]
+
+# lt[1][0][2] = 'Wasiq'  #updation
+# lt[1][0].insert(2,'Tabish') #add
+# del lt[1][0][3]  #delete
+
+# print(lt[0][1][1])
+# print(lt[1][0][2])
+# print(lt[2][0][3])
+# print(lt[0][1][0])
+# print(lt[1][0][3])
+# print(lt[2][1][0])
+print(lt[0][1][3])
+
+

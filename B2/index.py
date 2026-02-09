@@ -723,6 +723,6 @@ class Calc:
         print(a+b)
 
 
-c = Calc()
+# c = Calc()
 
 
