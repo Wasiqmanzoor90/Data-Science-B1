@@ -313,19 +313,43 @@
 
 
 
-dt = {
-    "1":{"name":{"FirstName":"Jasira","Latname":"Fayaz"},"Adress":{"State":"Kashmir","Local-Adress":"Srinagar","Pincode":190001}},
-    "2":{"name":{"FirstName":"Ahsaan","Lastname":"Malik"},"Adress":{"State":"Jammu","Local-Adress":"Katra","pincode":190003}},
-    "3":{"name":{"FirstName":"Reeba","Lastname":"Hamid"},"Adress":{"State":"Kashmir","Local-Adress":"Bandipora","pincode":190002}}
-}
+# dt = {
+#     "1":{"name":{"FirstName":"Jasira","Latname":"Fayaz"},"Adress":{"State":"Kashmir","Local-Adress":"Srinagar","Pincode":190001}},
+#     "2":{"name":{"FirstName":"Ahsaan","Lastname":"Malik"},"Adress":{"State":"Jammu","Local-Adress":"Katra","pincode":190003}},
+#     "3":{"name":{"FirstName":"Reeba","Lastname":"Hamid"},"Adress":{"State":"Kashmir","Local-Adress":"Bandipora","pincode":190002}}
+# }
 
-dt["1"]["name"]["FirstName"] = "Madeeha"  #updation
-dt["4"]={"name":{"FirstName":"Adnan","Lastname":"Tahir"},"Adress":{"State":"Kashmir","Local-Adress":"Kupwara","Pincode":190005}}
-#Adding the value
-del dt["1"]['Adress']["State"]   #delete a particular value
-print(dt["1"]["name"]["FirstName"])   
-print(dt["1"])
+# dt["1"]["name"]["FirstName"] = "Madeeha"  #updation
+# dt["4"]={"name":{"FirstName":"Adnan","Lastname":"Tahir"},"Adress":{"State":"Kashmir","Local-Adress":"Kupwara","Pincode":190005}}
+# #Adding the value
+# del dt["1"]['Adress']["State"]   #delete a particular value
+# print(dt["1"]["name"]["FirstName"])   
+# print(dt["1"])
 # print(dt["1"]["Adress"]["Pincode"])
 # print(dt["2"]["name"]["Lastname"])
 # print(dt["2"]['Adress']["State"])
 # print(dt["3"]["Adress"]["Local-Adress"])
+
+
+
+
+
+
+
+
+#identation is a block of code , 1 indentation =1 tab = 4 spaces
+#TypeCasting means when we convert one data type into another data type
+# age = int(input("Enter an number:-"))
+# if age > 18:
+#     print("You are elgible to vote")
+# else:
+#     print("You are not elgible")
+
+
+
+# grade= input("Enter your grade:-")
+# if grade == 'A':
+#     print("You are Pass")
+# else:
+#     print("You are fail")
+
