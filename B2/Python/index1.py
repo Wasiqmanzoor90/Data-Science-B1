@@ -91,10 +91,11 @@
 
 
 
-with open(r"C:\Users\Dell\Desktop\file.txt","r") as f:
-    data = f.read()
-    print(data)
+# with open(r"C:\Users\Dell\Desktop\file.txt","r") as f:
+#     data = f.read()
+#     print(data)
     
+
 
 
 
