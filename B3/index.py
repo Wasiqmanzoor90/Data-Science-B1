@@ -353,3 +353,18 @@
 # else:
 #     print("You are fail")
 
+
+
+#Nested if else means when we have to check multiple condition
+grade = input("Enter an Grade:-")
+
+if grade == 'A':
+    print("Topper")
+elif grade == 'B':
+    print("Good Student")
+elif grade == 'C':
+    print("Average student")
+elif grade == 'D':
+    print('Pass Student')
+else:
+    print("Fail")
