@@ -356,15 +356,41 @@
 
 
 #Nested if else means when we have to check multiple condition
-grade = input("Enter an Grade:-")
+# grade = input("Enter an Grade:-")
 
-if grade == 'A':
-    print("Topper")
-elif grade == 'B':
-    print("Good Student")
-elif grade == 'C':
-    print("Average student")
-elif grade == 'D':
-    print('Pass Student')
+# if grade == 'A':
+#     print("Topper")
+# elif grade == 'B':
+#     print("Good Student")
+# elif grade == 'C':
+#     print("Average student")
+# elif grade == 'D':
+#     print('Pass Student')
+# else:
+#     print("Fail")
+
+
+
+
+#Calculator
+# n1 = float(input("Enter an ist number:-"))
+# op = input("Enter an operator(+,-,*,/)")
+# n2 = float(input("Enter an second number:-"))
+
+# if op == '+':
+#     print(n1+n2)
+# elif op == '-':
+#     print(n1-n2)
+# elif op == "*":
+#     print(n1*n2)
+# elif op == '/':
+#     print(n1/n2)
+# else:
+#     print("Invalid Operator")
+
+
+n = int(input("Enter an number:-"))
+if n%2 == 0:
+    print("Even number")
 else:
-    print("Fail")
+    print("Odd number")
