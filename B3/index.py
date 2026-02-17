@@ -389,8 +389,24 @@
 #     print("Invalid Operator")
 
 
-n = int(input("Enter an number:-"))
-if n%2 == 0:
-    print("Even number")
+# n = int(input("Enter an number:-"))
+# if n%2 == 0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+username = input("Enter your Username:-")
+password = input("Enter an password:-")
+if username == 'Wasiq':
+    if password == '123':
+        print("Login Sucessfull")
+    else:
+        print("Wrong Password")
 else:
-    print("Odd number")
+    print("Invalid Username")
+
+n = int(input("Enter an number:-"))
+if n > 0:
+    print(n,"Positive Integer")
+else:
+    print(n,"Negative Number")

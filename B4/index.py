@@ -67,4 +67,49 @@
 # b = 25
 # print(a!=b)
 
+#Assignment operator
+# a = 10
+# # a = a+3
+# a+=3
+# print(a)
+
+
+# a = 10
+# a-=3
+# print(a)
+
+# a =15
+# a/=5
+# print(a)
+
+#data type help us categorize a data
+
+#string is a data type that holds textual data! it get intialize by quotes
+# a = 'wasiq'
+# print(type(a))
+
+# #int is a data type that holds a numerical value
+# b = 21
+# print(type(b))
+
+# #Boolean is data type that holds true or flase
+# c = True
+# print(type(c))
+
+# d = 12.56
+# print(type(d))
+
+# ab= '12'
+# print(type(ab))
+
+
+# age = int(input("Enter an age:-"))
+# if age >=18:
+#     print("You are Adult")
+# else:
+#     print("You are minor")
+
+
+
+
 
