@@ -395,18 +395,57 @@
 # else:
 #     print("Odd number")
 
-username = input("Enter your Username:-")
-password = input("Enter an password:-")
-if username == 'Wasiq':
-    if password == '123':
-        print("Login Sucessfull")
-    else:
-        print("Wrong Password")
-else:
-    print("Invalid Username")
+# username = input("Enter your Username:-")
+# password = input("Enter an password:-")
+# if username == 'Wasiq':
+#     if password == '123':
+#         print("Login Sucessfull")
+#     else:
+#         print("Wrong Password")
+# else:
+#     print("Invalid Username")
 
-n = int(input("Enter an number:-"))
-if n > 0:
-    print(n,"Positive Integer")
-else:
-    print(n,"Negative Number")
+# n = int(input("Enter an number:-"))
+# if n > 0:
+#     print(n,"Positive Integer")
+# else:
+#     print(n,"Negative Number")
+
+
+# a = 20
+# b=10
+# #logical operator/ logical gates
+# #here or means one of the codition should be true
+
+# if a == 20  or b ==15:
+#     print("True")
+# else:
+#     print("False")
+    
+
+# #here and means both of the conditions should be true
+# if a == 20  and b ==15:
+#     print("True")
+# else:
+#     print("False")
+
+# print("Hello im from ILS")
+# print("Hello im from ILS")
+# print("Hello im from ILS")
+# print("Hello im from ILS")
+
+# for i in range(5):
+#     print("Hello im from ILS")
+    
+    
+#loops is a program that runs multiple times until it met a specific condition
+#here i is temporary variable
+
+
+# for i in range(5):
+#     print(i)
+
+
+#here range takes three values first starting point, ending point and jumps
+# for i in range(0,20,2):
+#     print(i)

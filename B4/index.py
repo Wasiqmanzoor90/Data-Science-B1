@@ -102,12 +102,15 @@
 # ab= '12'
 # print(type(ab))
 
+name =input("rnter your name:-")
+age = input("Enter you age:-")
+print(type(age))
+print(name)
+print(age)
 
-# age = int(input("Enter an age:-"))
-# if age >=18:
-#     print("You are Adult")
-# else:
-#     print("You are minor")
+
+
+
 
 
 
