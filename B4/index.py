@@ -102,17 +102,29 @@
 # ab= '12'
 # print(type(ab))
 
-name =input("rnter your name:-")
-age = input("Enter you age:-")
-print(type(age))
-print(name)
-print(age)
+# name =input("rnter your name:-")
+# age = input("Enter you age:-")
+# print(type(age))
+# print(name)
+# print(age)
 
 
 
+# a = 'wasiq'
+# print(a)
+
+# b = 'ubaid'
+# print(b)
+
+# c = 'Imaad'
+# print(c)
 
 
-
-
-
-
+#so basically list is data type that stores multiple value or elemts in a single varibale
+#index is a numerical location of particular value present in the list, index can't be same
+##it allow duplicate values
+lt = ['ubaid',12,'Sahil',True,56.98,'wasiq','sahil','umer']
+lt[0]='moomin'   #we can do updation in a list with index
+lt.append('adil')  #we we add direct by value it get added at last
+lt.insert(1,'furkan') #when we want add a value at particular place in a list
+print(lt)
