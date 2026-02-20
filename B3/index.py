@@ -449,3 +449,39 @@
 #here range takes three values first starting point, ending point and jumps
 # for i in range(0,20,2):
 #     print(i)
+
+
+
+# try:
+#     n1 = float(input("Enter an ist number:-"))
+#     op = input("Enter an operator(+,-,*,/)")
+#     n2 = float(input("Enter an second number:-"))
+
+#     if op == '+':
+#         print(n1+n2)
+#     elif op == '-':
+#         print(n1-n2)
+#     elif op == "*":
+#         print(n1*n2)
+#     elif op == '/':
+#         print(n1/n2)
+#     else:
+#         print("Invalid Operator")
+# except ZeroDivisionError:
+#     print("Cant Divide by zero")
+
+
+# tab = int(input("Enter an number:-"))
+# for i in range(1,11):
+#     res = tab*i
+#     print(tab,'x',i,'=',res)
+
+
+
+lt =['jasira','reeba','Aqib','aiman','adnan','tabish']
+for i in lt:
+    print(i)
+    
+name = 'wasiq'
+for names in name:
+    print(names)
