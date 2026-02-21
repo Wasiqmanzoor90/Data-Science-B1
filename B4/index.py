@@ -123,8 +123,26 @@
 #so basically list is data type that stores multiple value or elemts in a single varibale
 #index is a numerical location of particular value present in the list, index can't be same
 ##it allow duplicate values
-lt = ['ubaid',12,'Sahil',True,56.98,'wasiq','sahil','umer']
-lt[0]='moomin'   #we can do updation in a list with index
-lt.append('adil')  #we we add direct by value it get added at last
-lt.insert(1,'furkan') #when we want add a value at particular place in a list
-print(lt)
+# lt = ['ubaid',12,'Sahil',True,56.98,'wasiq','sahil','umer']
+# lt[0]='moomin'   #we can do updation in a list with index
+# lt.append('adil')  #we we add direct by value it get added at last
+# lt.insert(1,'furkan') #when we want add a value at particular place in a list
+# print(lt)
+
+
+#so basically list is data type that stores multiple value or elemts in a single varibale
+#index is a numerical location of particular value present in the list, index can't be same
+##it allow duplicate values, its ordered and its indexed, its mutable means we can change it
+# lt = ['Furkan','Imaad',32,True,'Ubaid','Sahil']
+# lt[0]='Aadil'  #here we update
+# lt.append('umer')  #here it adds direct by value
+# lt.insert(1,'Moomin')  #here it takes two things index and value
+# lt.remove('Sahil')  #we remove here by value
+# lt.pop(0)  #here we remove by index
+# print(lt)
+
+#tuple stores multiple values or items i a single variable,its orderes,its indexed
+#it allow duplicates, its im mutable or we can say un changeble
+tp = (12,'wasiq',43,90,'ubaid','hanan')
+tp[0] = 'khan'
+print(tp)

@@ -477,11 +477,41 @@
 #     print(tab,'x',i,'=',res)
 
 
-
-lt =['jasira','reeba','Aqib','aiman','adnan','tabish']
-for i in lt:
-    print(i)
+# lt =['jasira','reeba','Aqib','aiman','adnan','tabish']
+# for i in lt:
+#     print(i)
     
-name = 'wasiq'
-for names in name:
-    print(names)
+# name = 'wasiq'
+# for names in name:
+#     print(names)
+
+
+
+
+
+
+# lt = [12,56,'jasira','abdul','hanan']
+# for pk in lt:
+#     print(pk)
+
+
+# dt = {
+#     "name":"Kazim",
+#     "Roll-no":32,
+#     "Adress":"Khayam"
+# }
+
+# for key,value in dt.items():
+#     print(key, value)
+
+# for i in range(1,20):
+#     if i% 2 ==0:
+#         print(i)
+
+
+#in while loop we dont know the current number of utteration
+#in for loop we know already the current number of itteration or we can say how many times it will run
+# num = 0
+# while num < 30:
+#     num = int(input("Enter an number:-"))
+#     print(num)
